@@ -1,0 +1,22 @@
+{
+  "name": "compact-router",
+  "version": "0.1.0",
+  "description": "compact 'scene' based router for react spa",
+  "main": "dist/compactRouter.js",
+  "repository": "git@github.com:jason-c-child/compact-router.git",
+  "author": "jason-c-child <child.jason@icloud.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.21.0",
+    "babel-plugin-transform-object-rest-spread": "^6.20.2",
+    "babel-preset-env": "^1.1.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src --out-dir dist"
+  },
+  "dependencies": {
+    "tiny-state-manager": "^0.1.9"
+  }
+}
